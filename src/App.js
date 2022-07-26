@@ -1,7 +1,6 @@
 import "./styles.css";
 import Search from "./Search";
 import Wind from "./Wind";
-import Description from "./Description";
 import Arrows from "./Arrows";
 import Forecast from "./Forecast";
 
@@ -23,7 +22,6 @@ export default function App() {
         <div className="col-4">
           <Wind />
         </div>
-        <Description />
         <div className="col-6">
           <Arrows />
         </div>

@@ -161,14 +161,12 @@ p {
 .temp {
     font-size: 47px;
     font-family: "Shadows Into Light Two", cursive;
-
     margin-left: 180px;
 }
 
 .mostly {
-    font-size: 37px;
-    padding-left: 10px;
-
+    font-size: 20px;
+    margin-left: 190px;
     font-family: "Shadows Into Light Two", cursive;
 }
 
@@ -233,4 +231,16 @@ input[type="submit"]:hover {
 .link {
     color: rgb(27, 141, 207);
     font-weight: bold;
+}
+
+.temperature {
+    position: relative;
+    font-size: 60px;
+    top: -15px;
+}
+
+.units {
+    font-size: 30px;
+    position: relative;
+    top: -20px;
 }
