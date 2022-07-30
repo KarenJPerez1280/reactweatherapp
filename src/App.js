@@ -5,7 +5,7 @@ import Search from "./Search";
 
 export default function App() {
   return (
-    <div className="container">
+    <div>
       <Search city="colombia" />
     </div>
   );

@@ -168,7 +168,8 @@ p {
 
 .mostly {
     font-size: 20px;
-    margin-left: 190px;
+    margin-left: -70px;
+    margin-top: 10px;
     font-family: "Shadows Into Light Two", cursive;
 }
 
@@ -200,6 +201,7 @@ p {
 }
 
 .hour {
+    margin-top: 30px;
     margin-left: 30px;
 }
 
@@ -214,14 +216,11 @@ input[type="submit"]:hover {
     background-color: #555156f0;
 }
 
-.Search {
-    margin: 30px;
-}
 
 .footer {
     font-family: "Shadows Into Light Two", cursive;
     font-size: 20px;
-    margin-left: 90px;
+    margin-left: 210px;
 }
 
 .link {
@@ -231,20 +230,24 @@ input[type="submit"]:hover {
 
 .temperature {
     position: relative;
-    font-size: 60px;
-    top: -15px;
+    font-size: 50px;
+    top: auto;
     font-family: "Shadows Into Light Two", cursive;
 
 }
 
 .units {
-    font-size: 30px;
+    font-size: 28px;
     position: relative;
     top: -20px;
     font-family: "Shadows Into Light Two", cursive;
 }
 
-.col {
-    height: fit-content;
-    width: fit-content;
+.engine {
+    margin-top: 30px;
+}
+
+.icon {
+    margin-left: 180px;
+    margin-right: 0px;
 }

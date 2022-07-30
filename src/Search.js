@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Forecast from "./Forecast";
 import CurrentDate from "./CurrentDate";
 import Weatherinfo from "./Weatherinfo";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function Search(props) {
@@ -21,6 +21,8 @@ export default function Search(props) {
                 wind: response.data.wind.speed,
                 humidity: response.data.main.humidity,
                 city: response.data.name,
+                min: response.data.main.temp_min,
+                max: response.data.main.temp_max,
                 date: new Date(response.data.dt * 1000),
                 description: response.data.weather[0].description,
                 icon: response.data.weather[0].icon
@@ -50,21 +52,24 @@ export default function Search(props) {
 
     if (weatherData.ready) {
         return (
-            <div className="Search">
+            <div className="container">
+
                 <div className="row">
-                    <div className="col">
-                        <CurrentDate date={weatherData.date} />
+                    <div className="col-4 time">
+                        <div className="hour">
+                            <CurrentDate date={weatherData.date} />
+                        </div>
                     </div>
 
-                    <div className="col-7 center">
-                        <form onSubmit={handleSubmit}>
+                    <div className="col-8 engine">
+                        <form className="engine" onSubmit={handleSubmit}>
 
                             <input
                                 type="search"
                                 placeholder="Search for a City..."
                                 className="searchForm"
-                                autocomplete="off"
-                                autofocus="on"
+                                autoComplete="off"
+                                autoFocus="on"
                                 id="search-input-city"
                                 onChange={handleCityChange}
                             />
@@ -76,12 +81,15 @@ export default function Search(props) {
 
                         </form>
                     </div>
+
+
+
                 </div>
 
                 <Weatherinfo data={weatherData} />
-
                 <Forecast />
             </div>
+
         );
     }
     else {
