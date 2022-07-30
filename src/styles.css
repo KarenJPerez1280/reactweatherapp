@@ -3,7 +3,7 @@
     border: solid;
     min-width: fit-content;
     max-width: 1230px;
-    margin: 50px 80px 10px;
+    margin: 20px 30px 10px;
     border-radius: 12px;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -141,8 +141,9 @@ p {
 .time {
     border-color: none;
     max-width: fit-content;
-    margin-left: 20px;
+    margin-left: 0px;
     font-size: 25px;
+    font-family: "Shadows Into Light Two", cursive;
 }
 
 .center {
@@ -153,7 +154,8 @@ p {
     padding-left: 30px;
 }
 
-.cityName {
+.CityName {
+
     font-size: 50px;
     font-family: "Shadows Into Light Two", cursive;
 }
@@ -212,14 +214,8 @@ input[type="submit"]:hover {
     background-color: #555156f0;
 }
 
-.rowC {
-    display: flex;
-    flex-direction: row;
-}
-
 .Search {
-    margin-left: 180px;
-    margin-bottom: 30px;
+    margin: 30px;
 }
 
 .footer {
@@ -237,10 +233,18 @@ input[type="submit"]:hover {
     position: relative;
     font-size: 60px;
     top: -15px;
+    font-family: "Shadows Into Light Two", cursive;
+
 }
 
 .units {
     font-size: 30px;
     position: relative;
     top: -20px;
+    font-family: "Shadows Into Light Two", cursive;
+}
+
+.col {
+    height: fit-content;
+    width: fit-content;
 }
