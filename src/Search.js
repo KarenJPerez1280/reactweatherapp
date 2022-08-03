@@ -17,6 +17,7 @@ export default function Search(props) {
         setWeatherData(
             {
                 ready: true,
+                coordinates: response.data.coord,
                 temperature: response.data.main.temp,
                 wind: response.data.wind.speed,
                 humidity: response.data.main.humidity,
@@ -87,7 +88,7 @@ export default function Search(props) {
                 </div>
 
                 <Weatherinfo data={weatherData} />
-                <Forecast />
+                <Forecast coordinates={weatherData.coordinates} />
             </div>
 
         );

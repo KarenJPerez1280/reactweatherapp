@@ -14,7 +14,7 @@ root.render(
           className="link"
           href="https://github.com/KarenJPerez1280/reactweatherapp"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Open-source code
         </a>
