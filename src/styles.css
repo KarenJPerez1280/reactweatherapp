@@ -1,7 +1,7 @@
 .container {
     background-image: url(./images/cloud.jpg);
     border: solid;
-    min-width: fit-content;
+    min-width: max-content;
     max-width: 1230px;
     margin: 20px 30px 10px;
     border-radius: 12px;
@@ -10,63 +10,19 @@
     background-size: cover;
 }
 
+.Weatherinfo {
+    min-width: 1230px;
+}
+
 .circleOne {
     display: inline-block;
-    min-width: 220px;
-    height: 210px;
+    min-width: 190px;
+    height: 190px;
     border-radius: 10%;
     text-align: center;
     background: rgba(158, 165, 177, 0.4);
     padding: 0px auto;
     margin-left: 0px;
-    margin-bottom: 30px;
-}
-
-.circleTwo {
-    display: inline-block;
-    min-width: 220px;
-    height: 210px;
-    border-radius: 10%;
-    text-align: center;
-    background: rgba(158, 165, 177, 0.4);
-    padding: 0px auto;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-
-.circleThree {
-    display: inline-block;
-    min-width: 220px;
-    height: 210px;
-    border-radius: 10%;
-    text-align: center;
-    background: rgba(158, 165, 177, 0.4);
-    padding: 0px auto;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-
-.circleFourth {
-    display: inline-block;
-    min-width: 220px;
-    height: 210px;
-    border-radius: 10%;
-    text-align: center;
-    background: rgba(158, 165, 177, 0.4);
-    padding: 0px auto;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-
-.circleFifth {
-    display: inline-block;
-    min-width: 220px;
-    height: 210px;
-    border-radius: 10%;
-    text-align: center;
-    background: rgba(158, 165, 177, 0.4);
-    padding: 0px auto;
-    margin-left: 20px;
     margin-bottom: 30px;
 }
 
@@ -83,11 +39,6 @@ p {
     font-weight: bold;
 }
 
-.openSource {
-    font-size: 22px;
-    margin-left: 80px;
-    font-family: "Shadows Into Light Two", cursive;
-}
 
 .high {
     color: #fa500a96;
@@ -99,12 +50,6 @@ p {
     font-size: 25px;
 }
 
-.bigArrow {
-    min-width: auto;
-    max-width: max-content;
-    margin-left: 150px;
-    margin-top: 30px;
-}
 
 .red {
     font-size: 90px;
@@ -116,26 +61,14 @@ p {
     color: #0000ff73;
 }
 
-.table {
-    min-width: auto;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    font-weight: bold;
-}
 
 .tableTwo {
     list-style: none;
     padding: 20px;
     margin-bottom: 30px;
     margin-left: 20px;
-    font-size: 29px;
+    font-size: 25px;
     font-family: "Shadows Into Light Two", cursive;
-}
-
-.row {
-    margin-top: 50px;
-    margin-left: 0px;
-    min-width: max-content;
 }
 
 .time {
@@ -143,6 +76,7 @@ p {
     max-width: fit-content;
     margin-left: 0px;
     font-size: 25px;
+
     font-family: "Shadows Into Light Two", cursive;
 }
 
@@ -168,7 +102,7 @@ p {
 
 .mostly {
     font-size: 20px;
-    margin-left: -70px;
+    margin-left: -30px;
     margin-top: 10px;
     font-family: "Shadows Into Light Two", cursive;
 }
@@ -176,7 +110,7 @@ p {
 .highOne {
     font-size: 34px;
     color: #fa500a96;
-    padding-left: 0px;
+    padding-left: 80px;
 }
 
 .lowOne {
@@ -192,12 +126,12 @@ p {
     padding-left: 100px;
 }
 
-.bigTemp {
-    margin-left: 180px;
+.search {
+    margin-left: 10px;
 }
 
-.sun {
-    margin-left: -30px;
+.bigTemp {
+    margin-left: 180px;
 }
 
 .hour {
@@ -220,7 +154,7 @@ input[type="submit"]:hover {
 .footer {
     font-family: "Shadows Into Light Two", cursive;
     font-size: 20px;
-    margin-left: 210px;
+    margin-left: 320px;
 }
 
 .link {

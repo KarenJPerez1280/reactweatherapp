@@ -77,7 +77,6 @@ export default function Search(props) {
 
                             <input type="submit" id="search-button" value="🔍" className="search" />
 
-                            <input type="submit" value="🧭" id="current-location-button" />
 
 
                         </form>

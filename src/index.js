@@ -7,19 +7,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
     <div>
-      <footer className="footer">
-        <a
-          className="link"
-          href="https://github.com/KarenJPerez1280/reactweatherapp"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Open-source code
-        </a>
-        , by Karen Perez
-      </footer>
+      <App />
     </div>
   </React.StrictMode>
 );
