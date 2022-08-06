@@ -19,7 +19,7 @@ export default function Forecast(props) {
         setForecast(response.data.daily);
         setReady(true);
     }
-    console.log(props);
+
 
 
 
@@ -35,6 +35,7 @@ export default function Forecast(props) {
 
                                 <WeatherDay data={dailyforecast} />
                             </div>
+
                             );
                         }
                         else {
